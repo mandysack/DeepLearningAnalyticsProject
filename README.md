@@ -32,3 +32,8 @@ NumberOfFollowers
 NumberOfTweets
 LengthOfScreenName
 LengthOfDescriptionInUserProfile
+
+# Environment Setup
+Create an anaconda environment using the following commands:
+conda create -n dla python=3.6 tensorflow-gpu numpy matplotlib pandas scipy
+conda activate dla
