@@ -20,13 +20,13 @@ Bad User:
 0 - Legitimate User
 
 # 5 Features:
-NumberOfFollowings
-NumberOfFollowers
-NumberOfTweets
-LengthOfScreenName
-LengthOfDescriptionInUserProfile
+NumberOfFollowings \n
+NumberOfFollowers \n
+NumberOfTweets \n
+LengthOfScreenName \n
+LengthOfDescriptionInUserProfile \n
 
-3 non-numeric features we're removed during the data cleasing as they did not provide information that would assist in proper classification
+3 non-numeric features we're removed during the data cleasing as they did not provide information that would assist in proper classification \n
 UserID
 CreatedAt
 CollectedAt
