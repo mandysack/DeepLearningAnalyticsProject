@@ -5,6 +5,28 @@ Mandy Sack 2019
 # Objectives
 The goal of this project is to use a twitter dataset to determine if the an account is a bot or not using Tensorflow's DNNClassifier. Using Tensorflow with GPU will enable an increase in performance effeciency. 
 
+# Attribute Information:
+The data has already seperated data by bot, referred to as a "Content Polluter", and a not bot referred to as a "Legitimate User".
+
+There has been a column added to the datasets labeled "Bad User" to identify this attribute prior to merging the datasets.
+
+Bad User:
+1 - Content Polluter
+0 - Legitimate User
+
+# 5 Features:
+NumberOfFollowings <br>
+NumberOfFollowers <br>
+NumberOfTweets <br>
+LengthOfScreenName <br>
+LengthOfDescriptionInUserProfile <br>
+
+3 non-numeric features we're removed during the data cleasing as they did not provide information that would assist in proper classification <br>
+UserID <br>
+CreatedAt <br>
+CollectedAt <br>
+
+
 # Files Included In This Package:
 README.md - This file <br>
 Deep Learning Project.ipynb - Notebook that will run the DLA project <br>
@@ -33,7 +55,7 @@ There are two ways to run this experiment. <br>
 If you are going to use Jupyter Notebook, execute all cells in Deep Learning Project.ipynb
 
 From the command line you can simply run: <br>
-$ demo
+$ ./demo
 
 # Results
 The last cell the Jupyter Notebook provides the results of: 
@@ -47,27 +69,5 @@ Initially, the accuracy was at 86%, and some improvement was able to be reached 
 # Information on the data:
 The dataset used is caverlee-2011 from the website https://botometer.iuni.iu.edu/bot-repository/datasets.html <br>
 Reference: Lee, Kyumin, Brian David Eoff, and James Caverlee. "Seven Months with the Devils: A Long-Term Study of Content Polluters on Twitter." ICWSM. 2011.
-
-# Attribute Information:
-The data has already seperated data by bot, referred to as a "Content Polluter", and a not bot referred to as a "Legitimate User".
-
-There has been a column added to the datasets labeled "Bad User" to identify this attribute prior to merging the datasets.
-
-Bad User:
-1 - Content Polluter
-0 - Legitimate User
-
-# 5 Features:
-NumberOfFollowings <br>
-NumberOfFollowers <br>
-NumberOfTweets <br>
-LengthOfScreenName <br>
-LengthOfDescriptionInUserProfile <br>
-
-3 non-numeric features we're removed during the data cleasing as they did not provide information that would assist in proper classification <br>
-UserID <br>
-CreatedAt <br>
-CollectedAt <br>
-
 
 
