@@ -58,7 +58,7 @@ From the command line you can simply run: <br>
 $ ./demo
 
 # Results
-The last cell the Jupyter Notebook provides the results of: 
+The last cell the Jupyter Notebook and the last output of the demo script provide the result of: 
 [b'1']
 
 Meaning that it did properly classify a "bot" from our content_polluters.csv file as a bot. You could take any row from either the content_polluters.csv file or legitimate_users.csv file to determine if the classifier is working.
